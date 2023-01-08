@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  background-color: cadetblue;
+}
+
+main {
+  margin: 100px 500px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-family: cursive;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.input-email, .input-senha{
+padding: 10px;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.butao {
+  width: 300px;
+  height: 30px;
+  margin: 10px 0 5px;
+  background-color: #00ff00;
+  cursor: pointer;
+  border: 1px solid white;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.butao:hover {
+  background-color: darkgrey;
+}
